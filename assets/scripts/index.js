@@ -70,6 +70,20 @@ function csvToSeries_bonus(text) {
 }
 
 function renderChart_bonus(series) {
+	JSC.label( 
+		'textDiv1', 
+		'<span style="font-family:Montserrat, sans-serif;">' + 
+		  '<span style="font-weight:500;font-size:36px;">16</span><br>' + 
+		  '<span style="font-weight:300;font-size:18px;">Users</span></span>'
+	 );
+
+	 JSC.label( 
+		'textDiv2', 
+		'<span style="font-family:Montserrat, sans-serif;">' + 
+		  '<span style="font-weight:500;font-size:36px;">4</span><br>' +
+		  '<span style="font-weight:300;font-size:18px;">Regions</span></span>'
+	 );	 
+
 	JSC.Chart('chartDiv_Bonus', {
 		title_label_text: 'Life Expectancy in the United States',
 		annotations: [{

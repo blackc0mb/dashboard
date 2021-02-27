@@ -30,6 +30,16 @@ body {
    height: 350px;
 }
 
+#kpi {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+
+#textDiv1, #textDiv2 {
+   padding: 10px 50px 10px 50px;
+}
+
 @media screen and (min-width: 768px) {
    .dashboard-container {
      grid-template-columns: repeat(2, 1fr);     
